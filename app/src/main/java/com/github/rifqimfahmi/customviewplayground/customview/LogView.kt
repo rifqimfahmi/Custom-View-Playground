@@ -31,7 +31,8 @@ class LogView @JvmOverloads constructor(
 
     private val TAG = "LogView"
 
-    init { Log.d(TAG, "initiation")
+    init {
+        Log.d(TAG, "initiation")
     }
 
     override fun getDrawingCacheQuality(): Int {
