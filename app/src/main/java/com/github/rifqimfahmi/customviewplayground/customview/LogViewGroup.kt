@@ -28,11 +28,11 @@ import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputConnection
 import java.util.ArrayList
 
-class LogCustomView @JvmOverloads constructor(
+class LogViewGroup @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ViewGroup(context, attrs, defStyleAttr) {
 
-    private val TAG = "LogCustomView"
+    private val TAG = "LogViewGroup"
 
     init {
         Log.d(TAG, "initiation")
