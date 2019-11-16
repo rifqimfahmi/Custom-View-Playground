@@ -1,3 +1,7 @@
+// --------------------------------------------------------------------------------------------- //
+// --------------------------- Created the first time (27 items)  ------------------------------- //
+// --------------------------------------------------------------------------------------------- //
+
 Base: removeAndRecycleAllViews
 Base: getChildCount
 Base: onAdapterChanged
@@ -228,125 +232,7 @@ Base: getPaddingBottom
 Linear: onLayoutCompleted
 
 // --------------------------------------------------------------------------------------------- //
-// ------------------------------------- 3 items only  ----------------------------------------- //
-// --------------------------------------------------------------------------------------------- //
-
-Base: removeAndRecycleAllViews
-Base: getChildCount
-Base: onAdapterChanged
-Base: onAttachedToWindow
-Linear: isAutoMeasureEnabled
-Base: onMeasure
-Linear: isAutoMeasureEnabled
-Base: onMeasure
-Linear: supportsPredictiveItemAnimations
-Linear: onLayoutChildren
-Base: getFocusedChild
-Base: getChildCount
-Base: getPaddingTop
-Linear: getExtraLayoutSpace
-Base: getPaddingTop
-Base: getPaddingBottom
-Base: detachAndScrapAttachedViews
-Base: getChildCount
-Base: getHeightMode
-Base: getHeight
-Base: getPaddingBottom
-Base: generateLayoutParams
-Base: checkLayoutParams
-Base: addView
-Base: addView
-Base: checkLayoutParams
-Base: measureChildWithMargins
-Base: getWidth
-Base: getWidthMode
-Base: getPaddingLeft
-Base: getPaddingRight
-Linear: canScrollHorizontally
-Base: getHeight
-Base: getHeightMode
-Base: getPaddingTop
-Base: getPaddingBottom
-Linear: canScrollVertically
-Base: getDecoratedMeasuredHeight
-Linear: isLayoutRTL
-Base: getLayoutDirection
-Base: getPaddingLeft
-Base: getDecoratedMeasuredWidth
-Base: layoutDecoratedWithMargins
-Base: generateLayoutParams
-Base: checkLayoutParams
-Base: addView
-Base: addView
-Base: checkLayoutParams
-Base: measureChildWithMargins
-Base: getWidth
-Base: getWidthMode
-Base: getPaddingLeft
-Base: getPaddingRight
-Linear: canScrollHorizontally
-Base: getHeight
-Base: getHeightMode
-Base: getPaddingTop
-Base: getPaddingBottom
-Linear: canScrollVertically
-Base: getDecoratedMeasuredHeight
-Linear: isLayoutRTL
-Base: getLayoutDirection
-Base: getPaddingLeft
-Base: getDecoratedMeasuredWidth
-Base: layoutDecoratedWithMargins
-Base: generateLayoutParams
-Base: checkLayoutParams
-Base: addView
-Base: addView
-Base: checkLayoutParams
-Base: measureChildWithMargins
-Base: getWidth
-Base: getWidthMode
-Base: getPaddingLeft
-Base: getPaddingRight
-Linear: canScrollHorizontally
-Base: getHeight
-Base: getHeightMode
-Base: getPaddingTop
-Base: getPaddingBottom
-Linear: canScrollVertically
-Base: getDecoratedMeasuredHeight
-Linear: isLayoutRTL
-Base: getLayoutDirection
-Base: getPaddingLeft
-Base: getDecoratedMeasuredWidth
-Base: layoutDecoratedWithMargins
-Base: getPaddingTop
-Base: getChildCount
-Base: getPaddingTop
-Base: getHeight
-Base: getPaddingBottom
-Base: getChildCount
-Base: getHeightMode
-Linear: getExtraLayoutSpace
-Base: getChildAt
-Base: getPaddingTop
-Base: getPosition
-Base: getDecoratedTop
-Base: getTopDecorationHeight
-Base: getDecoratedTop
-Base: getTopDecorationHeight
-Base: getPaddingTop
-Base: getChildCount
-Base: getHeight
-Base: getChildAt
-Base: getDecoratedTop
-Base: getTopDecorationHeight
-Base: offsetChildrenVertical
-Base: getHeight
-Base: getPaddingTop
-Base: getPaddingBottom
-Linear: onLayoutCompleted
-
-// --------------------------------------------------------------------------------------------- //
-// ---------------------------- With the linear layout (3 item) -------------------------------- //
+// ------------------------- Created the first time (3 items)  ---------------------------------- //
 // --------------------------------------------------------------------------------------------- //
 
 Base: removeAndRecycleAllViews
