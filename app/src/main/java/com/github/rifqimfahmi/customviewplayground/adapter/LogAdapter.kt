@@ -21,12 +21,12 @@ class LogAdapter : RecyclerView.Adapter<LogAdapter.LogItem>() {
     }
 
     override fun onBindViewHolder(holder: LogItem, position: Int) {
-        holder.bind(logData[position])
+        holder.bind(logData[position], position)
     }
 
     class LogItem(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(logData: LogData) {
-            itemView.tvName.text = logData.name
+        fun bind(logData: LogData, position: Int) {
+            itemView.tvName.text = "${logData.name}: $position"
         }
 
         companion object {
